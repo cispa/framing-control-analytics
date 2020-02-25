@@ -1,0 +1,5 @@
+### Description
+The analysis in our work was mainly based on the `libanalyzer.py` python script. By using the  functions from this library, one can check for inconsistencies (`is_inconsistent(inc)`), find all inconsistencies (`find_inconsistent(inc)`) and evaluate whether the inconsistency is security-oriented (`is_sec_oriented(inc)`) or compatibility-oriented (`is_comp_oriented(inc)`). The implementation of those functions is based on the formal definition section. In addition to that functions for the normalization of the X-Frame-Options and the CSP frame-ancestors directive as well as origin checks are implemented. To exemplify the usage of the library, we provided the `showcases.py` script.
+
+### Requirements
+Our analysis was mainly based on a custom library dubbed `libanalyzer.py`. In order to use the functions of this library, the only requirement is to have **python3** installed on your system. Also, the provided example analytics script only needs python3. In this example script (`showcases.py`) we have exemplified the use of our library.
